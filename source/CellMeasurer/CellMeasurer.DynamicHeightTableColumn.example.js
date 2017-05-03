@@ -55,7 +55,7 @@ export default class DynamicHeightTableColumn extends PureComponent {
         <Column
           width={width - 200}
           dataKey='random'
-          label='Dyanmic text'
+          label='Dynamic text'
           cellRenderer={this._columnCellRenderer}
         />
       </Table>
